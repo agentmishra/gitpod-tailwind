@@ -6,7 +6,7 @@
     "build:css": "npm run generate:css -- --minify",
     "dev:snowpac": "snowpack dev",
     "dev:css": "npm run generate:css -- --watch",
-    "generate:css": "npx tailwindcss -o tailwind.css"
+    "generate:css": "npx tailwindcss -i styles.css -o tailwind.css -w"
   },
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.4.3",
